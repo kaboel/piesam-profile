@@ -1,14 +1,15 @@
 <template>
   <div class="main-content">
     <div class="paragraph">
-      <h2>Pie Sam, Pie-nya Arek - Arek Malang.</h2>
+      <h1 style="margin-bottom: 10px">Pie Sam, Pie-nya Arek - Arek Malang.</h1>
       <p>
         Selamat datang di Kota Malang, tempat yang kaya akan tradisi kuliner dan memiliki warisan pastry yang memikat
         hati. Terletak di tengah-tengah kota yang penuh kehidupan di Indonesia, sejarah pie telah tumbuh subur selama
         berabad-abad. Cerita tentang pie di Malang dimulai pada masa kolonial ketika pengaruh Belanda memperkenalkan
         camilan yang lezat kepada masyarakat setempat. Seiring berjalannya waktu, perpaduan antara cita rasa lokal dan
         teknik baking Belanda melahirkan variasi pie yang unik dan menjadi bagian penting dari identitas kuliner Malang.
-
+      </p>
+      <p>
         Terinspirasi oleh keindahan pemandangan sekitar, para pengrajin pie lokal di Kota Malang menguasai seni
         menciptakan pie kue yang istimewa, mencerminkan keaslian kawasan yang memukau ini. Setiap gigitan menceritakan
         sejarah warisan dan keterampilan, dengan perpaduan rempah wangi, isian lembut, dan kulit yang renyah yang meleleh
@@ -20,12 +21,14 @@
         menciptakan pie kue tak terlupakan telah memimpin kami untuk mendirikan bisnis yang merayakan cita rasa dan budaya
         kota yang luar biasa ini. Kami berusaha menangkap esensi Malang dalam setiap gigitan, memberikan pengalaman nikmat
         yang meninggalkan kesan mendalam.
-
+      </p>
+      <p>
         Kami menggunakan bahan-bahan terbaik yang diperoleh secara lokal, dengan cermat mengolah setiap pie kue hingga
         sempurna. Para baker berbakat kami menyuntikkan isian khas kami dengan campuran rempah yang harmonis, menghasilkan
         simfoni rasa yang menggoda setiap kali dinikmati. Mulai dari favorit klasik hingga kreasi inovatif, rangkaian pie
         kue kami yang beragam mencerminkan kehidupan kuliner yang berwarna di Kota Malang.
-
+      </p>
+      <p>
         Di Pie Sam, kami tidak hanya menghormati warisan kuliner Malang, tetapi juga berkontribusi pada komunitas dengan
         mendukung petani dan pengrajin lokal. Kami percaya pada praktik berkelanjutan dan bertujuan menciptakan dampak
         positif bagi pelanggan dan lingkungan sekitar. Dengan komitmen kami terhadap kualitas, keaslian, dan inovasi, kami
@@ -53,10 +56,11 @@
 
   .paragraph p {
     text-align: justify;
+    margin-bottom: 1rem;
   }
 
   .paragraph p:last-child {
-    margin-top: 1rem;
+    margin-bottom: 0 !important;
   }
 
   .figure img {

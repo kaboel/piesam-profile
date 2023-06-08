@@ -11,7 +11,7 @@
         <RouterLink to="/">Beranda</RouterLink>
         <RouterLink to="/product">Produk</RouterLink>
         <RouterLink to="/contact">Kontak</RouterLink>
-        <RouterLink to="/locations">Lokasi Kami</RouterLink>
+        <RouterLink to="/locations">Temukan Kami</RouterLink>
       </nav>
     </header>
 
@@ -96,7 +96,7 @@ nav a.router-link-exact-active {
 }
 
 main {
-  background-color: rgba(240, 240, 240, .65);
+  background-color: rgba(240, 240, 240, .75);
 }
 
 main .content {
@@ -104,7 +104,6 @@ main .content {
 }
 
 footer {
-
   padding: 1rem;
   background-color: rgb(240, 240, 240);
   width: 100%;
@@ -135,7 +134,7 @@ footer {
   }
 
   .logo .logo-piesam {
-    width: 300px;
+    width: 280px;
   }
 
   .logo .link-to-iwabeka {
