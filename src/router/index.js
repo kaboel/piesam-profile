@@ -6,7 +6,7 @@ import LocationsView from '../views/LocationsView.vue';
 import ProductView from '../views/ProductView.vue';
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory('/piesam-profile/'),
   routes: [
     {
       path: '/',
