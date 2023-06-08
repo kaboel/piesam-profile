@@ -2,15 +2,16 @@
   <div class="container">
     <header>
       <div class="logo">
-        <img alt="Logo Pie Sam" class="logo-piesam" src="@/assets/piesam-logo-w-name.png" />
+        <img alt="Logo Pie Sam" class="logo-piesam" src="@/assets/images/piesam-logo-w-name.png" />
         <a href="#" class="link-to-iwabeka">
-          <img alt="Logo IWABEKA" class="logo-iwabeka" src="@/assets/iwabeka-logo-w-name.png" />
+          <img alt="Logo IWABEKA" class="logo-iwabeka" src="@/assets/images/iwabeka-logo-w-name.png" />
         </a>
       </div>
       <nav>
         <RouterLink to="/">Beranda</RouterLink>
         <RouterLink to="/product">Produk</RouterLink>
-        <RouterLink to="/contact">Kontak</RouterLink>
+        <RouterLink to="/activity">Aktivitas</RouterLink>
+        <RouterLink to="/contact">Pemesanan</RouterLink>
         <RouterLink to="/locations">Temukan Kami</RouterLink>
       </nav>
     </header>

@@ -1,5 +1,4 @@
 <template>
-  <h1>This is Contact page</h1>
-  To be added
+	<h1>This is the Contact View</h1>
+	To be added
 </template>
-
