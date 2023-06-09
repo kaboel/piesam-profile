@@ -5,12 +5,13 @@ import ActivityView from '../views/ActivityView.vue';
 import LocationsView from '../views/LocationsView.vue';
 import ProductView from '../views/ProductView.vue';
 
-const mode = import.meta.env.MODE;
-const isDev = mode === 'development';
-const hashMode = isDev ? import.meta.env.BASE_URL : '/piesam-profile/';
+// const mode = import.meta.env.MODE;
+// const isDev = mode === 'development';
+// const hashMode = isDev ? import.meta.env.BASE_URL : '/piesam-profile/';
 
 const router = createRouter({
-  history: createWebHistory(hashMode),
+  // history: createWebHistory(hashMode),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
