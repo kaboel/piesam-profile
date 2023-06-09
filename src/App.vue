@@ -149,6 +149,7 @@ footer {
 
   .logo .logo-iwabeka:hover {
     opacity: 1;
+    width: 100px;
   }
 
   nav {
