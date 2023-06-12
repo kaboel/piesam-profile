@@ -1,4 +1,6 @@
 <template>
-	<h1>This is the Activity View</h1>
-	To be added
+	<div class="text-center mt-5">
+
+		<h5>Laman Aktivitas akan Segera Datang</h5>
+	</div>
 </template>

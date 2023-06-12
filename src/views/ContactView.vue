@@ -1,4 +1,5 @@
 <template>
-	<h1>This is the Contact View</h1>
-	To be added
+	<div class="text-center mt-5">
+		<h5>Laman Kontak akan Segera Datang</h5>
+	</div>
 </template>

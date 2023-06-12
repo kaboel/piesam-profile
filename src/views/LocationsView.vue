@@ -1,4 +1,5 @@
 <template>
-	<h1>This is the Locations view</h1>
-	To be added
+	<div class="text-center mt-5">
+		<h5>Laman Lokasi Kami akan Segera Datang</h5>
+	</div>
 </template>

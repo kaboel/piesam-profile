@@ -1,4 +1,5 @@
 <template>
-	<h1>This is the Product view</h1>
-	To be added
+	<div class="text-center mt-5">
+		<h5>Laman Produk akan Segera Datang</h5>
+	</div>
 </template>
