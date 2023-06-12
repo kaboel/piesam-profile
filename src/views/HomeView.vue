@@ -50,16 +50,22 @@
       <div class="col-12 col-md-4">
         <h5 class="text-center pb-1">Apa kata pelanggan kami?</h5>
         <a href="https://goo.gl/maps/Cs9Gv9YrGGoKnnyz6" target="_blank">
-          <img src="@/assets/images/reviews/rev-1.png" alt="" class="img-fluid border-top" />
+          <img src="@/assets/images/reviews/rev-1.png" alt="" class="img-fluid border-top border-bottom" />
         </a>
         <a href="https://goo.gl/maps/usMq6xCkyXSFLVyc8" target="_blank">
-          <img src="@/assets/images/reviews/rev-2.png" alt="" class="img-fluid" />
+          <img src="@/assets/images/reviews/rev-2.png" alt="" class="img-fluid border-bottom" />
         </a>
         <a href="https://goo.gl/maps/oU3C8iTRojJ6CWUY6" target="_blank">
-          <img src="@/assets/images/reviews/rev-3.png" alt="" class="img-fluid" />
+          <img src="@/assets/images/reviews/rev-3.png" alt="" class="img-fluid border-bottom" />
         </a>
-        <a href="https://goo.gl/maps/NGuaTN6ViCZUQubV6" target="_blank">
+        <a href="" target="_blank">
           <img src="@/assets/images/reviews/rev-5.png" alt="" class="img-fluid border-bottom" />
+        </a>
+        <a href="" target="_blank">
+          <img src="@/assets/images/reviews/rev-6.png" alt="" class="img-fluid border-bottom" />
+        </a>
+        <a href="" target="_blank">
+          <img src="@/assets/images/reviews/rev-7.png" alt="" class="img-fluid border-bottom" />
         </a>
 
         <p class="text-center mt-2">
