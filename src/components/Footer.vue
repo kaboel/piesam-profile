@@ -9,7 +9,7 @@
 					<div class="list">
 						<RouterLink to="/"> Beranda </RouterLink>
 						<RouterLink to="/product"> Produk </RouterLink>
-						<RouterLink to="/activity"> Aktivitas </RouterLink>
+						<!-- <RouterLink to="/activity"> Aktivitas </RouterLink> -->
 						<RouterLink to="/contact"> Kontak </RouterLink>
 						<RouterLink to="/locations"> Lokasi Kami </RouterLink>
 					</div>
