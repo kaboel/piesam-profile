@@ -1,9 +1,9 @@
 <template>
 	<nav class="navbar navbar-expand-lg border-bottom bg-body-tertiary">
 		<div class="container">
-			<a href="#" class="navbar-brand">
+			<RouterLink to="/" class="navbar-brand">
 				<img src="@/assets/images/piesam-logo-w-name.png" alt="Logo Pie Sam" width="70">
-			</a>
+			</RouterLink>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
 				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
