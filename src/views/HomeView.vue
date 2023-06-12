@@ -52,9 +52,9 @@
         <img src="@/assets/images/reviews/rev-3.png" alt="" class="img-fluid" />
         <img src="@/assets/images/reviews/rev-5.png" alt="" class="img-fluid" />
 
-        <p class="text-center border-top pt-4">
+        <p class="text-center border-top pt-3">
           Lihat review lainnya di
-          <a href="https://goo.gl/maps/vjYDGdkvodpJPZ488">
+          <a href="https://shorturl.at/fxDI9" target="_blank">
             Google Reviews
           </a>
         </p>
