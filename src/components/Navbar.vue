@@ -10,34 +10,46 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav nav-underline me-auto mb-2 mb-lg-0">
-					<li class="nav-item">
-						<RouterLink :class="['nav-link', { 'active': $route.path === '/' }]" to="/">Beranda</RouterLink>
-					</li>
-					<li class="nav-item">
-						<RouterLink :class="['nav-link', { 'active': $route.path === '/product' }]" to="/product">Produk</RouterLink>
-					</li>
-					<li class="nav-item">
-						<RouterLink :class="['nav-link', { 'active': $route.path === '/activity' }]" to="/activity">Aktivitas
+					<li class="nav-item text-center">
+						<RouterLink :class="['nav-link', { 'active': $route.path === '/' }]" to="/">
+							Beranda
 						</RouterLink>
 					</li>
-					<li class="nav-item dropdown">
-						<RouterLink :class="['nav-link', { 'active': $route.path === '/contact' }]" to="/contact">Kontak</RouterLink>
+					<li class="nav-item text-center">
+						<RouterLink :class="['nav-link', { 'active': $route.path === '/product' }]" to="/product">
+							Produk
+						</RouterLink>
 					</li>
-					<li class="nav-item dropdown">
-						<RouterLink :class="['nav-link', { 'active': $route.path === '/locations' }]" to="/locations">Lokasi Kami
+					<!-- <li class="nav-item text-center">
+						<RouterLink :class="['nav-link', { 'active': $route.path === '/activity' }]" to="/activity">
+							Aktivitas
+						</RouterLink>
+					</li> -->
+					<li class="nav-item text-center">
+						<RouterLink :class="['nav-link', { 'active': $route.path === '/contact' }]" to="/contact">
+							Kontak
+						</RouterLink>
+					</li>
+					<li class="nav-item text-center">
+						<RouterLink :class="['nav-link', { 'active': $route.path === '/locations' }]" to="/locations">
+							Lokasi Kami
 						</RouterLink>
 					</li>
 				</ul>
-				<div class="d-flex row border-top pt-2" role="social">
-					<div class="col-4 col-md-4 text-center">
-						<a class="bi bi-instagram" />
+				<div class="d-flex row border-top pt-2" role="hashtag">
+					<div class="col-12 text-center">
+						<a class="hashtag" href="https://www.instagram.com/explore/tags/pieaslidaringalam/" target="_blank">
+							#pieaslidaringalam
+						</a>
+					</div> <!-- <div class="col-4 col-md-4 text-center">
+						<a href="https://tinyurl.com/2yzv9y93" target="_blank" class="bi bi-instagram" />
 					</div>
 					<div class="col-4 col-md-4 text-center">
-						<a class="bi bi-facebook" />
+						<a href="https://tinyurl.com/yv3zn97m" target="_blank" class="bi bi-facebook" />
 					</div>
 					<div class="col-4 col-md-4 text-center">
-						<a class="bi bi-whatsapp" />
-					</div>
+						<a :href="waUrl" target="_blank" class="bi bi-whatsapp" />
+					</div> -->
 				</div>
 			</div>
 		</div>
@@ -49,16 +61,11 @@ import { RouterLink } from 'vue-router';
 </script>
 
 <style scoped>
-.bi {
+.hashtag {
+	color: rgb(22, 101, 130);
+	font-weight: lighter;
 	font-size: 1.5rem;
 	text-decoration: none;
-	color: rgb(22, 101, 130);
-	opacity: 1;
-	cursor: pointer;
-}
-
-.bi:hover {
-	opacity: .7;
 }
 
 @media screen and (min-width: 1024px) {

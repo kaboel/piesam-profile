@@ -1,8 +1,10 @@
 <template>
+  <div class="heading-section border-bottom">
+    <h2>Pie Sam, Pie Asli Dari Ngalam</h2>
+  </div>
   <div class="container pt-4">
     <div class="row">
       <div class="col-md-8 mb-4 text-justify">
-        <h2>Pie Sam, Pie-nya Arek Malang.</h2>
         <p>
           Selamat datang di Kota Malang, tempat yang kaya akan tradisi kuliner dan memiliki warisan pastry yang memikat
           hati. Terletak di tengah-tengah kota yang penuh kehidupan di Indonesia, sejarah pie telah tumbuh subur selama
@@ -46,28 +48,33 @@
         </p>
       </div>
       <div class="col-12 col-md-4">
-        <h5 class="text-center border-bottom pb-2">Apa kata pelanggan kami?</h5>
-        <img src="@/assets/images/reviews/rev-1.png" alt="" class="img-fluid" />
+        <h5 class="text-center pb-1">Apa kata pelanggan kami?</h5>
+        <img src="@/assets/images/reviews/rev-1.png" alt="" class="img-fluid border-top" />
         <img src="@/assets/images/reviews/rev-2.png" alt="" class="img-fluid" />
         <img src="@/assets/images/reviews/rev-3.png" alt="" class="img-fluid" />
-        <img src="@/assets/images/reviews/rev-5.png" alt="" class="img-fluid" />
+        <img src="@/assets/images/reviews/rev-5.png" alt="" class="img-fluid border-bottom" />
 
-        <p class="text-center border-top pt-3">
+        <p class="text-center mt-2">
           Lihat review lainnya di
-          <a href="https://shorturl.at/fxDI9" target="_blank">
+          <a href="https://tinyurl.com/5fuf8a45" target="_blank">
             Google Reviews
           </a>
         </p>
       </div>
     </div>
-
-    <div class="paragraph">
-
-    </div>
-    <div class="figure">
-
-    </div>
   </div>
 </template>
 
-<style scoped></style>
+<script setup>
+</script>
+
+<style scoped>
+.heading-section {
+  background-color: rgb(22, 101, 130);
+  ;
+  color: rgba(240, 240, 240);
+  padding: 1rem 0 .6rem 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+</style>
